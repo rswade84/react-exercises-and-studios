@@ -1,6 +1,6 @@
 import styles from './Description.module.css';
 
-export default function RecipePhoto() {
+const RecipePhoto = () => {
   return (
     <img
       src="https://www.ambitiouskitchen.com/wp-content/uploads/2019/12/blueberrycookies-2-594x594.jpg"
@@ -8,4 +8,6 @@ export default function RecipePhoto() {
       className={styles.imageUpdates}
     />
   );
-}
+};
+
+export default RecipePhoto;

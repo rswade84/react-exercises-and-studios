@@ -17,6 +17,7 @@ export default function RecipeIngredients() {
         <li>{ingredients[2]}</li>
         <li>{ingredients[3]}</li>
         <li>{ingredients[4]}</li>
+        <li>{ingredients[5]}</li>
       </ul>
     </div>
   );
