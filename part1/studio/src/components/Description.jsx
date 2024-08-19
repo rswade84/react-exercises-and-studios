@@ -28,11 +28,13 @@ class RecipeDescription extends React.Component {
     return (
       <div>
         <div>
-          <h1>${recipeTitle}</h1>
-          <p>${recipeDescription}</p>
+          <h1>{recipeTitle}</h1>
+          <p>{recipeDescription}</p>
         </div>
         <RecipeAuthor />
       </div>
     );
   }
 }
+
+export default RecipeDescription;
