@@ -2,11 +2,11 @@ import styles from './Ingredients.module.css';
 
 export default function RecipeIngredients() {
   let ingredients = [
-    '1 cup olive oil',
-    '1 onion, chopped',
-    '2 cloves garlic, minced',
-    '1 cup frozen chopped broccoli, thawed',
-    '2 cups frozen corn kernels',
+    'Flour',
+    'Eggs',
+    'Chocolate Chips',
+    'Blueberries',
+    'Sugar',
   ];
   return (
     <div>
