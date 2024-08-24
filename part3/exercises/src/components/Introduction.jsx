@@ -1,12 +1,15 @@
-export default function HobbyIntroduction () {
-   return(
-      <div>
-         <h2>3 Fun Facts About Needlepoint</h2>
-         <ol>
-            <li>Needlepoint uses a specialized canvas as it's base.</li>
-            <li>The most basic stitch is called a tent stitch.</li>
-            <li>Needlepoint uses a lot of different kinds of fibers.</li>
-         </ol>
-      </div>
-   );
+export default function HobbyIntroduction() {
+  return (
+    <div>
+      <h2>3 Fun Facts About Computer Programming</h2>
+      <ol>
+        <li>
+          Coding jobs are in high demand across various industries, from tech
+          startups to healthcare.
+        </li>
+        <li>Many coding jobs offer the flexibility to work remotely.</li>
+        <li>Coding is like solving puzzles daily!</li>
+      </ol>
+    </div>
+  );
 }
